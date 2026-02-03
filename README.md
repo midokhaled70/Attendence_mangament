@@ -1,2 +1,45 @@
-# Student Attendance Management System
-Student Attendance Management System is a software program developed using C# programming language for easily record and view regular student attendance in schools, universities, and institutes. It helps to access the attendance information of a particular student in a particular section. Three users are allowed to access the system and they are Admin, Teacher and Student, access is done through username and password with choosing user type. First of all, admin can add teachers and students specifying Name, id, username and password. The teacher can do some operations on a section such as add section, update section name and delete section. Also, the teacher can record student attendance and generate a report for students who their absence rate reaches 25% of the total contact hours. The report contains student’s information (i.e., name, id, section, number of absence hours, absence rate). This system will also help in evaluating attendance eligibility criteria of a student as it displays the absence hours and its corresponding absence rate when absence rate reaches 25% the report will contain the student name and id and that he/she has reached disciplinary notice. Students only can access their sections and printout attendance record including the number of absence hours as well as the corresponding absence rate.
+@@@Student Attendance Management System
+
+The Student Attendance Management System is a C#-based application designed to efficiently manage and track student attendance in schools, universities, and training institutes. The system allows users to record, monitor, and review attendance data for individual students across different sections.
+
+The platform supports three user roles: Admin, Teacher, and Student, each accessing the system through secure login credentials with a selected user type.
+
+🔑 User Roles & Features
+👨‍💼 Admin
+
+Add and manage teachers and students.
+
+Register users by entering name, ID, username, and password.
+
+👩‍🏫 Teacher
+
+Create, update, and delete sections.
+
+Record student attendance.
+
+Generate reports for students whose absence rate reaches 25% of total contact hours.
+
+Reports include:
+
+Student name
+
+Student ID
+
+Section
+
+Total absence hours
+
+Absence percentage
+
+The system automatically evaluates attendance eligibility and flags students who reach the disciplinary threshold.
+
+👨‍🎓 Student
+
+View enrolled sections.
+
+Access personal attendance records.
+
+Print attendance reports showing absence hours and percentage.
+
+This system improves attendance monitoring by providing clear insights into student participation and disciplinary status.
+The School Management System is launched through integrated API and Angular projects, ensuring a smooth and modern user experience.
