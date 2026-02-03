@@ -1,4 +1,4 @@
-@@@Student Attendance Management System
+##Student Attendance Management System
 
 The Student Attendance Management System is a C#-based application designed to efficiently manage and track student attendance in schools, universities, and training institutes. The system allows users to record, monitor, and review attendance data for individual students across different sections.
 
